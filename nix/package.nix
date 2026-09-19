@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2026 First-Non-Interesting-Username
+# SPDX-FileCopyrightText: 2026 first-uninteresting-username
 #
 # SPDX-License-Identifier: GPL-3.0-only
 {
@@ -13,7 +13,7 @@ buildGoModule (finalAttrs: {
   structuredAttrs = true;
 
   src = fetchFromGitHub {
-    owner = "First-Non-Interesting-Username";
+    owner = "first-uninteresting-username";
     repo = "hack";
     tag = finalAttrs.version;
     hash = "sha256-h9qF3IYGXDW7yeKlc40NV4Be9VdYBzHJ8eZ/EwWDm0Q=";
@@ -33,7 +33,7 @@ buildGoModule (finalAttrs: {
 
   meta = {
     description = "CLI tool for interacting with LLMs";
-    homepage = "https://github.com/First-Non-Interesting-Username/hack";
+    homepage = "https://github.com/first-uninteresting-username/hack";
     license = lib.licenses.gpl3Only;
     # maintainers = with lib.maintainers; [ ];
     mainProgram = "hack";

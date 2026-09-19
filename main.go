@@ -1,6 +1,6 @@
 package main
 
-import "github.com/First-Non-Interesting-Username/hack/cmd"
+import "github.com/first-uninteresting-username/hack/cmd"
 
 func main() {
 	cmd.Execute()

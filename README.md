@@ -4,7 +4,7 @@ Dead-simple, UNIX style tool for interacting with LLMs on command line.
 
 It is intended for Hackclub AI API, but there's nothing stopping you from using it with any other Open AI completions compatible API.
 
-![Hackatime Badge](https://hackatime.hackclub.com/api/v1/badge/U0A9Y38B28H/First-Non-Interesting-Username/hack-ai-cli)
+![Hackatime Badge](https://hackatime.hackclub.com/api/v1/badge/U0A9Y38B28H/first-uninteresting-username/hack-ai-cli)
 
 The tech stack consists of 5 pieces:
 
@@ -22,19 +22,19 @@ Notes and roadmap are available in [NOTES.md](/NOTES.md)
 
 ```bash
 # Clone this repo
-gh repo clone First-Non-Interesting-Username/hack && cd hack
+gh repo clone first-uninteresting-username/hack && cd hack
 # Build the binary
 go build
 ```
 
-Alternatively, get the binary for your system from [github releases](https://github.com/First-Non-Interesting-Username/hack/releases)
+Alternatively, get the binary for your system from [github releases](https://github.com/first-uninteresting-username/hack/releases)
 
 In both cases, put the binary somewhere on your path and create the config in your preffered location.
 
 There's also a Nix package available. Add:
 
 ```nix
-hack.url = "github:First-Non-Interesting-Username/hack";
+hack.url = "github:first-uninteresting-username/hack";
 ```
 
 to your flake inputs.

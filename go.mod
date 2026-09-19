@@ -1,4 +1,4 @@
-module github.com/First-Non-Interesting-Username/hack
+module github.com/first-uninteresting-username/hack
 
 go 1.26.4
 
